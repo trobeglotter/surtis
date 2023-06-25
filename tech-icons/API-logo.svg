@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1076"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="API-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1078"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.4204826"
+     inkscape:cx="190.25757"
+     inkscape:cy="583.85293"
+     inkscape:window-width="1413"
+     inkscape:window-height="875"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1076" />
+  <defs
+     id="defs1073">
+    <rect
+       x="-865.67196"
+       y="380.51515"
+       width="309.16856"
+       height="190.25757"
+       id="rect1288" />
+  </defs>
+  <g
+     id="g20755-2"
+     transform="matrix(0.76328936,0,0,0.76328936,123.14041,25.993624)"
+     style="display:inline;fill:#3b50ff;fill-opacity:1"
+     inkscape:label="cloud">
+    <g
+       id="g1102"
+       style="fill:#3b50ff;fill-opacity:1">
+      <ellipse
+         style="fill:#3b50ff;fill-opacity:1;stroke:none;stroke-width:0.273166"
+         id="path20559-6"
+         cx="-101.99216"
+         cy="-3.0906718"
+         rx="27.254103"
+         ry="25.568281" />
+      <ellipse
+         style="fill:#3b50ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="path20561-0"
+         cx="-71.366417"
+         cy="-1.4048505"
+         rx="23.60149"
+         ry="18.824999" />
+      <ellipse
+         style="fill:#3b50ff;fill-opacity:1;stroke:none;stroke-width:0.287885"
+         id="path20561-4-2"
+         cx="-50.293652"
+         cy="18.067101"
+         rx="24.444401"
+         ry="21.518318" />
+      <ellipse
+         style="fill:#3b50ff;fill-opacity:1;stroke:none;stroke-width:0.304943"
+         id="path20561-44-2"
+         cx="-133.17984"
+         cy="14.610447"
+         rx="23.60149"
+         ry="25.00634" />
+      <rect
+         style="fill:#3b50ff;fill-opacity:1;stroke:none;stroke-width:0.348039"
+         id="rect20748-9"
+         width="81.968781"
+         height="31.196877"
+         x="-133.1319"
+         y="8.3539133" />
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.5858952,0,0,0.5858952,528.94347,-201.67407)"
+     id="text1286"
+     style="font-weight:bold;font-size:37.3333px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Bold';white-space:pre;shape-inside:url(#rect1288);opacity:0.462222;fill:#6f2cf3;stroke-width:8;stroke-linecap:round;stroke-linejoin:round"><tspan
+       x="-865.67188"
+       y="426.91362"
+       id="tspan437"><tspan
+         style="font-size:53.3333px;fill:#ffffff"
+         id="tspan435">API</tspan></tspan></text>
+</svg>
