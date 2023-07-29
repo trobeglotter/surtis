@@ -2,17 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-25H0BMPL83"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-25H0BMPL83');
-    </script>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,10 +72,15 @@
                     </div>
                 </div>
                 <p class="description">QR code is everywhere, particularly in the travel industry. This full stack
-                    application takes a vintage ad and rebrands it for digital with an SVG animation meant to be seen in
-                    an airport on a tablet display. Traveler details are inputted to create a unique QR enabled guest
-                    pass for entry into an airport lounge. The user data is stored securely using the Bcrypt npm with
-                    Postgres and the app is served on Nodejs with Express. </p>
+                    application takes a vintage <a class="project-link-resources"
+                        href="https://www.dpvintageposters.com/posters/transportation-plane-train-ship-bus/swissair"
+                        target=”_blank”>Swiss Air</a> ad and rebrands it for digital with an SVG animation meant to
+                    be seen in an airport on a tablet display. Traveler details are inputted to create a unique QR
+                    enabled guest pass for entry into an airport lounge. Deployed on the <a
+                        class="project-link-resources" href="https://railway.app/" target=”_blank”>Railway</a> platform,
+                    the user data
+                    is stored securely using the Bcrypt npm with Postgres and the app is served on Nodejs with Express.
+                </p>
                 <!-- Multi User Job Board -->
                 <div id="project-descriptions">
                     <div>
@@ -102,15 +96,17 @@
                     </div>
                 </div>
                 <p class="description">Pepper is a true CRUD app. With Pepper, anyone can post a job or read openings.
-                    The user only needs to sign up. Their password is secured through Bcrypt and a unique session is
-                    created with a JWT secured in the user’s own browser storage. Pepper is built with Express/Nodejs
-                    and Postgres stores all of the backend data which can always be retrieved even after ending a
-                    session. Job posts can be deleted through the userdash, password can be updated, or the user account
-                    can be deactivated with all user data deleted from the database. </p>
+                    The user only needs to sign up. The password is secured through Bcrypt and a unique session is
+                    created with a Json Web Token secured in the user’s own browser storage. Deployed on the <a
+                        class="project-link-resources" href="https://railway.app/" target=”_blank”>Railway</a>
+                    platform, Pepper is served on Nodejs with Express and Postgres stores all of the backend data which
+                    can always be retrieved even after ending a session. Job posts can be deleted through the userdash,
+                    password can be updated, or the user account can be deactivated with all user data deleted from the
+                    database. </p>
                 <!-- Art Institute of Chicago RestAPI -->
                 <div id="project-descriptions" class="project-descriptions-row-reverse">
                     <div class="project-title-links">
-                        <h3 class="title title-chi-api">Art Institute of Chicago RestAPI</h3>
+                        <h3 class="title title-chi-api">Art Institute of Chicago API</h3>
                         <a href="https://github.com/trobeglotter/art-institute-api" target="_blank"><img
                                 class="contact-svg-icons" src="svg-icons/icons8-github-chi-api.svg" alt=""></a>
                         <a href="https://trobeglotter.github.io/art-institute-api/" target="_blank"><img
@@ -120,10 +116,9 @@
                         <img src="images/projects/chicago-hero-image.png" alt="">
                     </div>
                 </div>
-                <p>This is a simply built and clean Javascript interface using rest
-                    API technology.
-                    This site gives access to the entire digital collection from the Art Institute of Chicago through
-                    their <a class="api-link-resources" href="https://api.artic.edu/docs/#introduction"
+                <p>This is a simply built and clean Javascript interface implementing a restAPI. This site gives access
+                    to the entire digital collection from the Art Institute of Chicago through their <a
+                        class="project-link-resources" href="https://api.artic.edu/docs/#introduction"
                         target=”_blank”>rest
                         API</a> and the <a class="api-link-resources"
                         href="https://iiif.io/api/presentation/2.0/#introduction" target=”_blank”>IIIF API</a>
@@ -143,8 +138,8 @@
                     <p>twitter.com/siusaidh_</p>
                 </div>
                 <div>
-                    <p class="email-text">cuzannesurtis@gmail.com</p>
                     <p class="website-text">surtis.codes</p>
+                    <p class="email-text">cuzannesurtis@gmail.com</p>
                     <p class="copyright-text">Copyright
                         <span id="copyright-date"></span>
                         © Suzanne H Curtis
