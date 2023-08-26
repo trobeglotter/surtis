@@ -37,26 +37,32 @@
                 </div>
             </section>
             <section>
-                <!-- Ecomm Scheduled Services -->
+                <!-- Multi User Job Board -->
                 <div id="project-descriptions">
                     <div>
-                        <img src="images/projects/calistoga-hero-image.png" alt="">
+                        <img src="images/projects/pepper-hero-image.png" alt="">
                     </div>
                     <div class="project-title-links">
-                        <h3 class="title title-ecomm">Ecomm Scheduled Services</h3>
-                        <a href="https://github.com/trobeglotter/calistoga-yoga" target="_blank"><img
-                                class="contact-svg-icons" src="svg-icons/icons8-github-ecomm.svg" alt=""></a>
-                        <a href="https://trobeglotter.github.io/calistoga-yoga/" target="_blank"><img
-                                class="contact-svg-icons" src="svg-icons/icons8-open-link-ecomm.svg" alt=""></a>
+                        <h3 class="title title-crud">Multi User Job Board</h3>
+                        <a href="https://github.com/trobeglotter/multi-user-jobboard" target="_blank"><img
+                                class="contact-svg-icons" src="svg-icons/icons8-github-crud.svg" alt=""></a>
+                        <a href="https://pepper-jobboard-ndb-production.up.railway.app/" target="_blank"><img
+                                class="contact-svg-icons" src="svg-icons/icons8-open-link-crud.svg" alt=""></a>
                     </div>
                 </div>
-                <p class="description">Styled around the aesthetic of a city in Napa Valley, this ecomm site uses React
-                    components to divide the SPA into three sections. The user can explore the product offerings in a
-                    simple to use visual display then search through the yoga courses by default time and day or filter
-                    based on instructor or yoga style. The app relies on useEffect to import the course schedule from a
-                    json file and useCallback to modify the schedule according to the user’s preferences.</p>
+                <p class="description">Pepper is a true CRUD app. With Pepper, anyone can post a job or read openings,
+                    the user only needs to sign up. The password is secured through Bcrypt and a unique session is
+                    created with a Json Web Token secured in the user’s own browser storage. Deployed on the <a
+                        class="project-link-resources" href="https://railway.app/" target=”_blank”>Railway</a>
+                    platform, Pepper is served on Nodejs with Express and Postgres stores all of the backend data which
+                    can always be retrieved even after ending a session. Job posts can be deleted through the userdash,
+                    password can be updated, or the user account can be deactivated with all user data deleted from the
+                    database. Sign up and sign in or view a <a class="project-link-resources"
+                        href="https://youtu.be/PvNlbb-FK0g" target="_blank">demo</a> to see what
+                    Pepper can do.</p>
                 <!-- QR Coded Guest Ticket -->
                 <div id="project-descriptions" class="project-descriptions-row-reverse">
+                    <!-- Order of divs reversed for mobile -->
                     <div class="project-title-links">
                         <h3 class="title title-qr-code">QR Coded Guest Ticket</h3>
                         <div>
@@ -65,7 +71,6 @@
                             <a href="https://swissair-gp-ndb-production.up.railway.app/" target="_blank"><img
                                     class="contact-svg-icons" src="svg-icons/icons8-open-link-qr-code.svg" alt=""></a>
                         </div>
-
                     </div>
                     <div>
                         <img src="images/projects/swissair-hero-image.png" alt="">
@@ -81,49 +86,47 @@
                     the user data
                     is stored securely using the Bcrypt npm with Postgres and the app is served on Nodejs with Express.
                 </p>
-                <!-- Multi User Job Board -->
+                <!-- Art Institute of Chicago RestAPI -->
                 <div id="project-descriptions">
                     <div>
-                        <img src="images/projects/pepper-hero-image.png" alt="">
-
+                        <img src="images/projects/chicago-hero-image.png" alt="">
                     </div>
                     <div class="project-title-links">
-                        <h3 class="title title-crud">Multi User Job Board</h3>
-                        <a href="https://github.com/trobeglotter/multi-user-jobboard" target="_blank"><img
-                                class="contact-svg-icons" src="svg-icons/icons8-github-crud.svg" alt=""></a>
-                        <a href="https://pepper-jobboard-ndb-production.up.railway.app/" target="_blank"><img
-                                class="contact-svg-icons" src="svg-icons/icons8-open-link-crud.svg" alt=""></a>
-                    </div>
-                </div>
-                <p class="description">Pepper is a true CRUD app. With Pepper, anyone can post a job or read openings.
-                    The user only needs to sign up. The password is secured through Bcrypt and a unique session is
-                    created with a Json Web Token secured in the user’s own browser storage. Deployed on the <a
-                        class="project-link-resources" href="https://railway.app/" target=”_blank”>Railway</a>
-                    platform, Pepper is served on Nodejs with Express and Postgres stores all of the backend data which
-                    can always be retrieved even after ending a session. Job posts can be deleted through the userdash,
-                    password can be updated, or the user account can be deactivated with all user data deleted from the
-                    database. </p>
-                <!-- Art Institute of Chicago RestAPI -->
-                <div id="project-descriptions" class="project-descriptions-row-reverse">
-                    <div class="project-title-links">
-                        <h3 class="title title-chi-api">Art Institute of Chicago API</h3>
+                        <h3 class="title title-chi-api">Art Institute of Chicago's API</h3>
                         <a href="https://github.com/trobeglotter/art-institute-api" target="_blank"><img
                                 class="contact-svg-icons" src="svg-icons/icons8-github-chi-api.svg" alt=""></a>
                         <a href="https://trobeglotter.github.io/art-institute-api/" target="_blank"><img
                                 class="contact-svg-icons" src="svg-icons/icons8-open-link-chi-api.svg" alt=""></a>
                     </div>
-                    <div>
-                        <img src="images/projects/chicago-hero-image.png" alt="">
-                    </div>
                 </div>
-                <p>This is a simply built and clean Javascript interface implementing a restAPI. This site gives access
-                    to the entire digital collection from the Art Institute of Chicago through their
-                    <a class="project-link-resources" href="https://api.artic.edu/docs/#introduction"
-                        target=”_blank”>restAPI</a> and the <a class="project-link-resources"
+                <p class="description">This is a simply built Javascript interface implementing a restAPI.
+                    This site gives access
+                    to the entire digital collection from the Art Institute of Chicago through their <a
+                        class="project-link-resources" href="https://api.artic.edu/docs/#introduction"
+                        target=”_blank”>rest
+                        API</a> and the <a class="project-link-resources"
                         href="https://iiif.io/api/presentation/2.0/#introduction" target=”_blank”>IIIF API</a>
                     (International Image Interoperability Framework API). Look through
-                    the collection and click on a work to discover who created it.
-                </p>
+                    the collection and click on a work to discover who created it.</p>
+                <!-- Ecomm Scheduled Services -->
+                <div id="project-descriptions" class="project-descriptions-row-reverse">
+                    <!-- Order of divs reversed for mobile -->
+                    <div class="project-title-links">
+                        <h3 class="title title-ecomm">Ecomm Scheduled Services</h3>
+                        <a href="https://github.com/trobeglotter/calistoga-yoga" target="_blank"><img
+                                class="contact-svg-icons" src="svg-icons/icons8-github-ecomm.svg" alt=""></a>
+                        <a href="https://trobeglotter.github.io/calistoga-yoga/" target="_blank"><img
+                                class="contact-svg-icons" src="svg-icons/icons8-open-link-ecomm.svg" alt=""></a>
+                    </div>
+                    <div>
+                        <img src="images/projects/calistoga-hero-image.png" alt="">
+                    </div>
+                </div>
+                <p>Styled around the aesthetic of a city in Napa Valley, this ecomm site uses React
+                    components to divide the SPA into three sections. The user can explore the product offerings in a
+                    simple to use visual display then search through the yoga courses by default time and day or filter
+                    based on instructor or yoga style. The app relies on useEffect to import the course schedule from a
+                    json file and useCallback to modify the schedule according to the user’s preferences.</p>
             </section>
         </main>
     </div>
