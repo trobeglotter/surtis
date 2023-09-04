@@ -160,6 +160,10 @@ main {
     width: 50px;
 }
 
+.contact-svg-icons-github {
+    width: 60px;
+}
+
 .contact-link {
     width: 100%;
     height: 25vh;
